@@ -6234,7 +6234,7 @@ a.close.disabled {
   content: "";
 }
 
-/*.carousel-item {
+.carousel-item {
   position: relative;
   display: none;
   float: left;
@@ -6245,17 +6245,8 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
-}*/
-
-.carousel-item {
-  height: 65vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
